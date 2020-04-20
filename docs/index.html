@@ -7,9 +7,31 @@
   <title>gnatbuoy</title>
   <meta name="description" content="gnatbuoy">
   <meta name="author" content="Nhat Bui">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css">
 </head>
 
 <body>
-  g n a t b u o y
+  <div class="brutalism">
+    <div class="os-window" id="main-window">
+      <div class="os-window-bar">
+        <button class="menu-bar-button" type="button" id="main-window-closer"><b>X</b></button>
+        <span class="window-title"><b>Home</b></span>
+      </div>
+      <div class="os-window-content">
+        <div>
+          <h1>gnatbuoy</h1>
+        </div>
+        <ul>
+          <li><a href="gnatbuoy.itch.io">interactive</a></li>
+          <li><a href="instagram.com/gnatbuoy">visual</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.querySelector("#main-window-closer").onclick = function(event) {
+      document.querySelector("#main-window").remove();
+    };
+  </script>
 </body>
 </html>

@@ -1,0 +1,39 @@
+.brutalism {
+  margin: 20px;
+}
+
+.os-window {
+  border: 5px;
+  border-color: black; 
+  border-style: solid;
+  font-family: sans-serif;
+}
+
+.os-window-bar {
+  border-bottom: 5px;
+  border-bottom-style: solid;
+  padding: 5px;
+  display: flex;
+}
+
+.os-window-content {
+  padding: 10px;
+}
+
+.os-window-bar .menu-bar-button {
+  padding-left: 1px;
+  padding-right: 1px;
+  border: none;
+  max-width: 1em;
+}
+
+.os-window-bar .window-title {
+  display: inline-flex;
+  flex-flow: row;
+  flex: auto;
+  justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
